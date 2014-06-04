@@ -1,0 +1,15 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'application'
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '1.11'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.jparsec:jparsec:2.1'
+}
