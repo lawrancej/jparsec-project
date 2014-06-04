@@ -1,0 +1,12 @@
+= Use JParsec to parse stuff in Java
+
+From the command line:
+
+----
+./gradlew build   # Build the source
+./gradlew run     # Run the test program
+./gradlew eclipse # Generate eclipse project
+----
+
+Then, in Eclipse, go to 'Import' -> 'Existing Projects into Workspace' and look for this project.
+
